@@ -12,10 +12,16 @@ function forLoop(array) {
 
 function whileLoop(n) {
   while (n > 0) {
+<<<<<<< HEAD
     console.log(n)
     n--
   }
   return 'done'
+=======
+    n--
+  }
+  return
+>>>>>>> da095cd3ad600a2a7a0504e9c145f32f5c2b1e4b
 }
 
 function maybeTrue() {
